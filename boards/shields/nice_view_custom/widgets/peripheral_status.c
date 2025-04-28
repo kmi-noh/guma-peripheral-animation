@@ -23,10 +23,10 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
-LV_IMG_DECLARE(GUMAYUSI);
+LV_IMG_DECLARE(gumayusi);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &GUMAYUSI
+    &gumayusi
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
